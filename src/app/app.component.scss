@@ -1,19 +1,24 @@
-li {
+.navbar {
+  cursor: pointer;
+  background: transparent;
+  transition: 500ms ease !important;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.link {
   display: flex;
   align-items: center;
   justify-content: center;
+  vertical-align: middle;
+  cursor: pointer;
+  transition: 500ms ease;
 }
-.bg-dark{
-  background: transparent !important;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-  padding-left: 5rem;
-  padding-right: 5rem;
+.nav-link {
+  cursor: pointer;
+  transition: 500ms ease;
 }
-.bg-dark.scrolled {
-  background: white !important;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  padding-left: 5rem;
-  padding-right: 5rem;
+.navbar-brand {
+  transition: 500ms ease;
 }
