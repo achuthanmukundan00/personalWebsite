@@ -8,10 +8,11 @@ import { Component, HostListener } from "@angular/core";
 export class AppComponent {
   title = "AchuthanMukundan";
 
+
   // @HostListener('scroll', ['$event']) // for scroll events of the current element
   @HostListener("window:scroll", ["$event"]) // for window scroll events
   onScroll(event) {
-    if ($(window).scrollTop() > 100) {
+    if ($(window).scrollTop() > 50) {
       $(".navbar")
         .css("background", "white")
         .css("padding-top", "1.5rem")
